@@ -1,0 +1,17 @@
+import java.util.*;
+class hello
+{
+	public static void main(String [] args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("ENTER NUMBERS OF PERSONS DOING HANDSHAKE");
+		int n=sc.nextInt();
+		int k=n-1;
+		int p=0;
+		for(int j=k;k>=1;k--)
+		{
+			p=p+k;
+		}
+		System.out.println("THE NUMBERS OF HANDSAHKE FOR "+n+" PERSONS IS "+p);
+	}
+}
